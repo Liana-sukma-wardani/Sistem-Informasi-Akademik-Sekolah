@@ -1,11 +1,8 @@
-<h1 align="center">Selamat datang di Sistem Informasi Akademik Sekolah! 👋</h1>
+# Judul Project: Sistem-Informasi-Akademik-Sekolah
 
-## Apa itu Sistem Informasi Akademik Sekolah?
-
-Web Sistem Informasi Akademik Sekolah yang dibuat oleh <a href="https://github.com/adhiariyadi"> Adhi Ariyadi </a>. **Sistem Informasi Akademik Sekolah adalah Website untuk para siswa dapat melihat jadwal pelajaran, dan nilai rapot dan para guru dapat menambahkan nilai siswa dengan muda melalui website.**
-
-## Fitur apa saja yang tersedia di Sistem Informasi Akademik Sekolah?
-
+# Deskripsi Singkat
+Sistem Informasi Akademik Sekolah merupakan project open source yang di kembangkan oleh Liana Sukma Wardani. Website ini khusus untuk para siswa dapat melihat jadwal pelajaran, dan nilai rapot dan para guru dapat menambahkan nilai siswa dengan muda melalui website.
+Di dalam aplikasi ini terdapat beberapa fungsi dan fitur yang bisa digunakan oleh siswa dengan mudah, tak hanya itu fitur lain juga tersedia untuk guru seperti penginputan dll:
 - Autentikasi Admin
 - User & CRUD
 - Jadwal & CRUD
@@ -16,29 +13,12 @@ Web Sistem Informasi Akademik Sekolah yang dibuat oleh <a href="https://github.c
 - Rapot
 - Dan lain-lain
 
-## Release Date
-
-**Release date : 28 Apr 2020**
-
-> Sistem Informasi Akademik Sekolah merupakan project open source yang dibuat oleh Adhi Ariyadi. Kalian dapat download/fork/clone. Cukup beri stars di project ini agar memberiku semangat. Terima kasih!
-
----
-
-## Default Account for testing
-
-**Admin Default Account**
-
-- email: admin@gmail.com
-- Password: 12345678
-
----
-
-## Install
+# Cara Menjalankan Sistem
 
 1. **Clone Repository**
 
 ```bash
-git clone https://github.com/adhiariyadi/Sistem-Informasi-Akademik-Sekolah-Laravel.git
+git clone https://github.com/Liana-sukma-wardani/Sistem-Informasi-Akademik-Sekolah.git
 cd Sistem-Informasi-Akademik-Sekolah-Laravel
 composer install
 cp .env.example .env
@@ -67,18 +47,15 @@ php artisan migrate --seed
 ```bash
 php artisan serve
 ```
+# Akun Uji Coba Untuk Login
 
-## Author
+**Admin Default Account**
 
-- Facebook : <a href="https://web.facebook.com/adhiariyadi.me/"> Adhi Ariyadi</a>
-- LinkedIn : <a href="https://www.linkedin.com/in/adhiariyadi/"> Adhi Ariyadi</a>
+- email: admin@gmail.com
+- Password: 12345678
 
-## Contributing
+# Dokumentasi API dengan software postman
+<img width="1920" height="1080" alt="Screenshot 2025-07-30 102021" src="https://github.com/user-attachments/assets/123195cf-9ba7-4f89-b3ee-e0e5f1eae8b5" />
+<img width="1920" height="1080" alt="Screenshot (393)" src="https://github.com/user-attachments/assets/4cab1e1e-248e-4f8d-acc3-d8af23ce74f1" />
+<img width="1896" height="967" alt="Screenshot (395)" src="https://github.com/user-attachments/assets/cb177957-a9f4-4b43-ab6e-e0e874a8adf6" />
 
-Contributions, issues and feature requests di persilahkan.
-Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!**
-
-## License
-
-- Copyright © 2020 Adhi Ariyadi.
-- **Sistem Informasi Akademik Sekolah is open-sourced software licensed under the MIT license.**
