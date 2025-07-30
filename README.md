@@ -14,25 +14,43 @@ Di dalam aplikasi ini terdapat beberapa fungsi dan fitur yang bisa digunakan ole
 - Dan lain-lain
 
 # Cara Menjalankan Sistem
-'''bash 
-1. Clone Repository 
-git clone https://github.com/adhiariyadi/Sistem-Informasi-Akademik-Sekolah-Laravel.git
+
+1. **Clone Repository**
+
+```bash
+git clone https://github.com/Liana-sukma-wardani/Sistem-Informasi-Akademik-Sekolah.git
 cd Sistem-Informasi-Akademik-Sekolah-Laravel
 composer install
 cp .env.example .env
-'''
+```
 
-3. Buka .env lalu ubah baris berikut sesuai dengan databasemu yang ingin dipakai
+2. **Buka `.env` lalu ubah baris berikut sesuai dengan databasemu yang ingin dipakai**
+
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
+```
 
-4. Instalasi website
+3. **Instalasi website**
+
+```bash
 php artisan key:generate
 php artisan migrate --seed
+```
 
-5. Jalankan website
+4. **Jalankan website**
+
+```bash
 php artisan serve
+```
+# Akun Uji Coba Untuk Login
+
+**Admin Default Account**
+
+- email: admin@gmail.com
+- Password: 12345678
+
