@@ -14,13 +14,15 @@ Di dalam aplikasi ini terdapat beberapa fungsi dan fitur yang bisa digunakan ole
 - Dan lain-lain
 
 # Cara Menjalankan Sistem
-1. Clone Repository
+'''bash 
+1. Clone Repository 
 git clone https://github.com/adhiariyadi/Sistem-Informasi-Akademik-Sekolah-Laravel.git
 cd Sistem-Informasi-Akademik-Sekolah-Laravel
 composer install
 cp .env.example .env
+'''
 
-2. Buka .env lalu ubah baris berikut sesuai dengan databasemu yang ingin dipakai
+3. Buka .env lalu ubah baris berikut sesuai dengan databasemu yang ingin dipakai
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -28,9 +30,9 @@ DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
 
-3. Instalasi website
+4. Instalasi website
 php artisan key:generate
 php artisan migrate --seed
 
-4. Jalankan website
+5. Jalankan website
 php artisan serve
