@@ -54,3 +54,8 @@ php artisan serve
 - email: admin@gmail.com
 - Password: 12345678
 
+# Dokumentasi API dengan software postman
+<img width="1920" height="1080" alt="Screenshot 2025-07-30 102021" src="https://github.com/user-attachments/assets/123195cf-9ba7-4f89-b3ee-e0e5f1eae8b5" />
+<img width="1920" height="1080" alt="Screenshot (393)" src="https://github.com/user-attachments/assets/4cab1e1e-248e-4f8d-acc3-d8af23ce74f1" />
+<img width="1896" height="967" alt="Screenshot (395)" src="https://github.com/user-attachments/assets/cb177957-a9f4-4b43-ab6e-e0e874a8adf6" />
+
